@@ -1,0 +1,11 @@
+.lastLine {
+    max-width: 100%;
+    width: 100%;
+    background: #121212;
+    padding: 35px 0 28px 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

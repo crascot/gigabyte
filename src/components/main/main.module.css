@@ -1,6 +1,6 @@
 .main {
-    background: url(../../backgrounds/head-bg.png) 100%;
+    background: url(../../backgrounds/head-bg.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 960px;
-    padding: 40px 80px;
+    padding: 40px 0 0 0;
 }

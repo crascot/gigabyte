@@ -1,0 +1,15 @@
+.block {
+    width: 102px;
+    height: 112px;
+    background: #121212 !important;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px !important;
+    margin: 0 !important;
+}
+
+.time {
+    font-size: 16px !important;
+}
