@@ -1,0 +1,8 @@
+.nav {
+    max-width: 745px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    margin: 0 auto;
+}
