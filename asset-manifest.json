@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/gigabyte/static/css/main.becb1329.chunk.css",
+    "main.js": "/gigabyte/static/js/main.dce39f59.chunk.js",
+    "main.js.map": "/gigabyte/static/js/main.dce39f59.chunk.js.map",
+    "runtime-main.js": "/gigabyte/static/js/runtime-main.3fb3acd9.js",
+    "runtime-main.js.map": "/gigabyte/static/js/runtime-main.3fb3acd9.js.map",
+    "static/css/2.150d169a.chunk.css": "/gigabyte/static/css/2.150d169a.chunk.css",
+    "static/js/2.2b7bd24b.chunk.js": "/gigabyte/static/js/2.2b7bd24b.chunk.js",
+    "static/js/2.2b7bd24b.chunk.js.map": "/gigabyte/static/js/2.2b7bd24b.chunk.js.map",
+    "index.html": "/gigabyte/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/gigabyte/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.becb1329.chunk.css.map": "/gigabyte/static/css/main.becb1329.chunk.css.map",
+    "static/js/2.2b7bd24b.chunk.js.LICENSE.txt": "/gigabyte/static/js/2.2b7bd24b.chunk.js.LICENSE.txt",
+    "static/media/main.module.css": "/gigabyte/static/media/head-bg.9cd54b19.png",
+    "static/media/logo.bed815c8.svg": "/gigabyte/static/media/logo.bed815c8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fb3acd9.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.2b7bd24b.chunk.js",
+    "static/css/main.becb1329.chunk.css",
+    "static/js/main.dce39f59.chunk.js"
+  ]
+}
