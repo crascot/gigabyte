@@ -16,17 +16,17 @@ body {
 }
 
 .w500 {
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 .w700 {
-    font-weight: 700;
+    font-weight: 700 !important;
 }
 
 .gray {
-    opacity: 0.4;
-    font-weight: 400;
+    opacity: 0.4 !important;
+    font-weight: 400 !important;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
