@@ -5,12 +5,18 @@ import style from './last-line.module.css';
 import Line from './line/line';
 import Students from './students/students';
 
+let lastLineArray = [
+    <MainButton />,
+    <Students />,
+    <Line />
+]
+
+let lastLineData = lastLineArray.map(data => <Col className={style.col}>{data}</Col>);
+
 const LastLine = () => {
     return (
         <Container className={style.lastLine} fluid>
-            <Col className={style.col}><MainButton /></Col>
-            <Col className={style.col}><Students /></Col>
-            <Col className={style.col}><Line /></Col>
+            {lastLineData}
         </Container>
     )
 }
