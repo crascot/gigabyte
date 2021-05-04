@@ -7,7 +7,7 @@ const Earned = () => {
     return (
         <Row className={style.earned}>
             <Col className={`${style.text} + ${s.gray} + ${s.w400}`}>Заработано учениками:</Col>
-            <Col className={s.w400}>400 000₽</Col>
+            <Col className={`${style.num} + ${s.w400}`}>400 000₽</Col>
         </Row>
     )
 }

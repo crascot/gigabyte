@@ -6,11 +6,11 @@ import style from './students.module.css';
 const Students = () => {
     return (
         <Container className={style.students} fluid>
-            <Row>
+            <Row className={style.row}>
                 <Col className={`${style.all} + ${s.gray} + ${s.w400}`}>Учеников всего:</Col>
                 <Col className={`${style.num} + ${s.w700}`}>200</Col>
             </Row>
-            <Row>
+            <Row className={style.row}>
                 <Col className={`${style.all} + ${s.gray} + ${s.w400}`}>Успешно закончили курс:</Col>
                 <Col className={`${style.num} + ${s.w700}`}>190</Col>
             </Row>
