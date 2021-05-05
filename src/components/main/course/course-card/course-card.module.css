@@ -1,0 +1,38 @@
+.courseCard {
+    position: absolute;
+    top: 25%;
+    left: 11%;
+    max-width: 920px;
+    width: 100%;
+}
+
+.header {
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+
+.blocks {
+    max-width: 550px;
+    width: 100%;
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 1104px) {
+    .courseCard {
+        left: 0;
+        top: 20%;
+        text-align: center;
+    }
+    .blocks {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 673px) {
+    .header {
+        font-size: 45px;
+    }   
+}

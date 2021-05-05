@@ -1,0 +1,11 @@
+.course {
+    position: relative;
+    width: 100%;
+    height: 680px;
+}
+
+@media (max-width: 1104px) {
+    .course {
+        height: 580px;
+    }   
+}

@@ -1,0 +1,12 @@
+.earned {
+    max-width: 416px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.text,
+.num {
+    min-width: max-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
