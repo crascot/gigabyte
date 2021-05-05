@@ -1,0 +1,10 @@
+.body {
+    background-image: url(../../backgrounds/body-bg.png);
+    padding: 200px 0 30px 0;
+}
+
+@media (max-width: 1180px) {
+    .body {
+        padding-top: 80px;
+    }
+}

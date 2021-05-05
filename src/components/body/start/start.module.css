@@ -1,0 +1,8 @@
+.start {
+    display: flex;
+    max-width: 1315px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 80px;
+}

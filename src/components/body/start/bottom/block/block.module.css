@@ -1,0 +1,22 @@
+.block {
+    max-width: 324px;
+    width: 100%;
+    background-color: initial !important;
+    border: none !important;
+}
+
+.block .title {
+    font-size: 36px;
+}
+
+.block .img {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.block .text {
+    font-size: 14px;
+    margin-left: -20px;
+}
