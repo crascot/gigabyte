@@ -10,3 +10,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.num p {
+    margin-bottom: auto;
+}
