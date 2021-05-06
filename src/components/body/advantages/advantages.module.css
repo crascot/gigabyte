@@ -1,0 +1,12 @@
+.advantages {
+    max-width: 1296px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.advantages h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: auto;
+}

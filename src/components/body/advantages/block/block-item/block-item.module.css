@@ -1,0 +1,30 @@
+.block {
+    background-color: initial !important;
+    border: none !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    width: 416px;
+}
+
+.block * {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block .img {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    width: 326px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.text {
+    width: 358px;
+    font-size: 16px;
+}
