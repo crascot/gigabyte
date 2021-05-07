@@ -3,12 +3,14 @@ import { Container } from 'react-bootstrap';
 import About from './about/about';
 import Advantages from './advantages/advantages';
 import style from './body.module.css';
+import Partners from './partners/partners';
 import Start from './start/start';
 
 let bodyArray = [
     <About />,
     <Start />,
-    <Advantages />
+    <Advantages />,
+    <Partners />
 ]
 
 let bodyDate = bodyArray.map(data => data)
