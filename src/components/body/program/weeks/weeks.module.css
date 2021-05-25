@@ -1,0 +1,21 @@
+.weeks {
+    display: flex;
+    margin: 0 auto;
+}
+
+.weeks .left, .right {
+    max-width: 271px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.weeks .left {
+    text-align: right;
+}
+
+.weeks .right {
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}

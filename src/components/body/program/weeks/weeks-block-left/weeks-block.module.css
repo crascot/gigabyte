@@ -1,0 +1,18 @@
+.weeksBlock {
+    width: 288px;
+    display: flex;
+    align-items: center;
+}
+
+.weeksBlock .blockText .week {
+    font-size: 14px;
+}
+.weeksBlock .blockText .text {
+    font-size: 18px;
+}
+
+.weeksBlock hr {
+    margin-left: 20px;
+    opacity: 0.3;
+    border: 1px solid #FFFFFF;
+}
