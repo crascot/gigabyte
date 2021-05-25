@@ -1,0 +1,12 @@
+.teachersBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 113px;
+}
+
+@media (max-width: 835px) {
+    .teahersBody {
+        justify-content: center;
+    }
+}

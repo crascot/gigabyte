@@ -1,0 +1,9 @@
+.teachers {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1341px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 171px;
+}

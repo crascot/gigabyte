@@ -6,13 +6,15 @@ import style from './body.module.css';
 import Partners from './partners/partners';
 import Program from './program/program';
 import Start from './start/start';
+import Teachers from './teachers/teachers';
 
 let bodyArray = [
     <About />,
     <Start />,
     <Advantages />,
     <Partners />,
-    <Program />
+    <Program />,
+    <Teachers />
 ]
 
 let bodyDate = bodyArray.map(data => data)
