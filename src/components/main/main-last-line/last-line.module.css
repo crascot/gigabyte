@@ -11,3 +11,9 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 776px) {
+    .lastLine {
+        flex-direction: column;
+    }
+}

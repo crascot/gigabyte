@@ -1,12 +1,12 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
+import { Image, Col } from 'react-bootstrap';
 import s from '../../../../App.module.css';
 import style from './top.module.css';
 import svg from '../../../../svg/fast-start.svg';
 
 const Top = () => {
     return (
-        <div className={style.top}>
+        <Col className={style.top}>
             <div className={style.topContent}>
                 <div className={style.fastStart}>
                     <Image src={svg} />
@@ -17,7 +17,7 @@ const Top = () => {
                 собрать свой первый компьютер
             </p>
             </div>
-        </div>
+        </Col>
     )
 }
 

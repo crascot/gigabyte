@@ -20,3 +20,13 @@
     font-size: 14px;
     margin-left: -20px;
 }
+
+@media (max-width: 1313px) {
+    .block {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .block .img {
+        display: none;
+    }
+}

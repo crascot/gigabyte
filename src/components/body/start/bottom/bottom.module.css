@@ -3,5 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 80px;
-    padding: 0 !important;
+    padding: 0 9px !important;
+}
+
+@media (max-width: 1313px) {
+    .bottom {
+        flex-direction: column;
+    }
 }
