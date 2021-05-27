@@ -24,7 +24,8 @@ let teahers = [
     }
 ]
 
-let teachersData = teahers.map(data => <TeacherCard avatar={data.avatar} 
+let teachersData = teahers.map((data, index) => <TeacherCard key={index}
+                                                    avatar={data.avatar} 
                                                     name={data.name} 
                                                     job={data.job} 
 />)

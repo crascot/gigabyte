@@ -11,7 +11,7 @@ let course = [
     {time: 'Секунд'}
 ]
 
-let courseData = course.map(data => <Block time={data.time} />)
+let courseData = course.map(data => <Block key={data.time} time={data.time} />)
 
 const CourseCard = () => {
     return (

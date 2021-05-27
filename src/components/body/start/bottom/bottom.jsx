@@ -30,7 +30,10 @@ let bottomArray = [
     }
 ]
 
-let bottomData = bottomArray.map(data => <Block title={data.title} img={data.img} text={data.text} />);
+let bottomData = bottomArray.map((data, index) => <Block key={index}
+                                                title={data.title} 
+                                                img={data.img} 
+                                                text={data.text} />);
 
 const Bottom = () => {
     return (

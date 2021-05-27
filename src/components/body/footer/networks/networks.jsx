@@ -13,7 +13,7 @@ let networksArray = [
     {src: instagram}
 ]
 
-let networksData = networksArray.map(data => <Image src={data.src} roundedCircle />)
+let networksData = networksArray.map(data => <Image key={data.src} src={data.src} roundedCircle />)
 
 const Networks = () => {
     return (

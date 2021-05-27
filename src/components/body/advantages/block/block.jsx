@@ -21,7 +21,7 @@ let blockArray = [
     }
 ]
 
-let blockData = blockArray.map(data => <BlockItem img={data.img} title={data.title} />)
+let blockData = blockArray.map((data, index) => <BlockItem key={index} img={data.img} title={data.title} />)
 
 const Block = () => {
     return (

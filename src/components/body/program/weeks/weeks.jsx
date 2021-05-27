@@ -11,14 +11,14 @@ let leftWeeksArray = [
     {week: '5'},
     {week: '7'}
 ]
-let leftWeeksData = leftWeeksArray.map(data => <WeeksBlockLeft week={data.week}></WeeksBlockLeft>)
+let leftWeeksData = leftWeeksArray.map(data => <WeeksBlockLeft key={data.week} week={data.week}></WeeksBlockLeft>)
 
 let rightWeeksArray = [
     {week: '2'},
     {week: '4'},
     {week: '6'},
 ]
-let rightWeeksData = rightWeeksArray.map(data => <WeeksBlockRight week={data.week}></WeeksBlockRight>)
+let rightWeeksData = rightWeeksArray.map(data => <WeeksBlockRight key={data.week} week={data.week}></WeeksBlockRight>)
 
 const Weeks = () => {
     return (

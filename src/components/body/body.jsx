@@ -19,7 +19,7 @@ let bodyArray = [
     <Footer />
 ]
 
-let bodyDate = bodyArray.map(data => data)
+let bodyDate = bodyArray.map((data, index) => <div key={index}>{data}</div>)
 
 const Body = () => {
     return (
