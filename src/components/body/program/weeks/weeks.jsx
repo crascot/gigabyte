@@ -26,7 +26,7 @@ const Weeks = () => {
             <div className={style.left}>
                 {leftWeeksData}
             </div>
-            <div>
+            <div className={style.line}>
                 <Image src={line} />
             </div>
             <div className={style.right}>

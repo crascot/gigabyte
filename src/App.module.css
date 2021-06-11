@@ -30,3 +30,15 @@ body {
 a {
     text-decoration: none !important;
 }
+
+@media (max-width: 810px) {
+    h1 {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 411px) {
+    body {
+        min-width: 427px;
+    }
+}

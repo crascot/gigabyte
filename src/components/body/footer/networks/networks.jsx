@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Image } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import style from './networks.module.css';
 import vk from '../../../../svg/networks/vk.svg';
 import youtube from '../../../../svg/networks/youtube.svg';
@@ -13,7 +13,7 @@ let networksArray = [
     {src: instagram}
 ]
 
-let networksData = networksArray.map(data => <Image key={data.src} src={data.src} roundedCircle />)
+let networksData = networksArray.map(data => <img key={data.src} src={data.src} />)
 
 const Networks = () => {
     return (

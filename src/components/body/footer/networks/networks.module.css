@@ -11,5 +11,6 @@
     height: 50px;
     padding: 13px;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 42%;
     cursor: pointer;
 }

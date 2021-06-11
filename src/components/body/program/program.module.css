@@ -4,3 +4,9 @@
     margin: 0 auto;
     margin-top: 153px;
 }
+
+@media (max-width: 577px) {
+    .program {
+        display: none;
+    }
+}
