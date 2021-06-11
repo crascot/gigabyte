@@ -1,0 +1,39 @@
+.partners {
+    max-width: 1315px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.partners .header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.partners .header h1 {
+    font-size: 48px;
+}
+.partners .header img {
+    margin-right: 52px;
+    transform: rotate(-165deg);
+}
+
+.table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+@media (max-width: 1360px) {
+    .table {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 810px) {
+    .partners .header {
+        justify-content: center;
+        text-align: center;
+    }
+}

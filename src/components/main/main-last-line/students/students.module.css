@@ -17,3 +17,9 @@
 .num {
     max-width: max-content !important;
 }
+
+@media (max-width: 776px) {
+    .students {
+        margin: 20px 0 30px 0 !important;
+    }
+}

@@ -1,0 +1,23 @@
+.teachersHeader {
+    display: flex;
+    align-items: center;
+}
+.teachersHeader .img {
+    transform: rotate(-44deg);
+}
+
+.teachersHeader h1 {
+    transform: translateY(25px);
+    margin-left: 38.61px;
+    font-size: 48px;
+}
+
+@media (max-width: 644px) {
+    .teachersHeader {
+        flex-direction: column;
+    }
+    .teachersHeader h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,24 @@
+tbody td:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 1);
+}
+
+.trTop td {
+    border-top: 0px !important;
+}
+
+td {
+    margin: 0 auto;
+    padding: 65px !important;
+}
+
+@media (max-width: 992px) {
+    td {
+        padding: 30px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    td {
+        padding: 25px !important;
+    }
+}

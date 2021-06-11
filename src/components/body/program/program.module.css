@@ -1,0 +1,12 @@
+.program {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 153px;
+}
+
+@media (max-width: 577px) {
+    .program {
+        display: none;
+    }
+}

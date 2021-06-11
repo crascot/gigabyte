@@ -1,0 +1,37 @@
+.top {
+    width: 100%;
+}
+
+.topContent {
+    max-width: 461px;
+    width: 100%;
+}
+
+.fastStart {
+    display: flex;
+    align-items: center;
+    margin: 0 0 51px 0;
+}
+
+.fastStart h1 {
+    transform: translateY(15px);
+    margin: 0 0 0 20px;
+}
+
+.text {
+    margin: 0;
+}
+
+@media (max-width: 1313px) {
+    .top {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media (max-width: 470px) {
+    .fastStart {
+        display: flex;
+        flex-direction: column;
+    }
+}

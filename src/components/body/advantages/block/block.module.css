@@ -1,0 +1,14 @@
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1255px) {
+    .block {
+        flex-wrap: wrap;
+    }
+
+    .block * {
+        margin: 0 auto;
+    }
+}

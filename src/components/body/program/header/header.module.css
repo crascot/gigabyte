@@ -1,0 +1,18 @@
+.programHeader {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.programHeader .img {
+    transform: rotate(136deg);
+}
+.programHeader h1 {
+    font-size: 48px;
+    margin-top: 76px;
+    margin-bottom: 30px;
+}
+.programHeader p {
+    margin: 0 auto;
+    width: 464px;
+}

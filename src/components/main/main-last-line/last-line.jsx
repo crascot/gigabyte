@@ -11,7 +11,7 @@ let lastLineArray = [
     <Line />
 ]
 
-let lastLineData = lastLineArray.map(data => <Col className={style.col}>{data}</Col>);
+let lastLineData = lastLineArray.map((data, index) => <Col className={style.col} key={index} >{data}</Col>);
 
 const LastLine = () => {
     return (
