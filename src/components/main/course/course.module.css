@@ -9,3 +9,9 @@
         height: 580px;
     }   
 }
+
+@media (max-width: 810px) {
+    .course {
+        height: 460px;
+    }
+}
