@@ -1,6 +1,6 @@
 .body {
-    background-image: url(../../backgrounds/body-bg.png);
-    padding: 200px 0 30px 0;
+    background-image: url(../../backgrounds/body-bg.png) !important;
+    padding: 200px 0 30px 0 !important;
 }
 
 @media (max-width: 1180px) {
